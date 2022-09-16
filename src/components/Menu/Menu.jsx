@@ -1,15 +1,20 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./Menu.module.css";
 
 const Menu = () => {
   return (
-    <div className={styles.container}>
-      <ul className={styles.list}>
-        <Link to="/wordscounter">
-          <li className={styles.item}>WordsCharectersCounter</li>
-        </Link>
-      </ul>
-    </div>
+    <ul className={styles.list}>
+      <li>
+        <NavLink to="/wordscounter" className={styles.item}>
+          WordsCharectersCounter
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/calculator" className={styles.item}>
+          Scientific calculator
+        </NavLink>
+      </li>
+    </ul>
   );
 };
 
