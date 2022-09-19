@@ -1,0 +1,19 @@
+.button {
+  width: 60px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  transition: 0.1s;
+  box-shadow: 5px 5px 8px #00000020, 0px 0px 0px #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
+  background: #fff;
+}

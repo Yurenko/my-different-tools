@@ -1,0 +1,31 @@
+.display {
+  background-color: #393939b1;
+  color: #fff;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 1.5em 1em;
+}
+
+.indicatorList {
+  font-size: 0.75em;
+  line-height: 1;
+  opacity: 0.4;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25em;
+  min-height: 1em;
+}
+
+.expression {
+  margin-left: auto;
+}
+
+.screen {
+  font-size: 2.5em;
+  min-height: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
