@@ -1,0 +1,17 @@
+section {
+  padding: 25px 30px 20px 30px;
+  background: #fff;
+  margin: 0;
+}
+
+.queText {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.optionList {
+  padding: 20px 0px;
+  display: block;
+}
+
+
