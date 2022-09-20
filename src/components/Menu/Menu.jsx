@@ -14,6 +14,11 @@ const Menu = () => {
           Scientific calculator
         </NavLink>
       </li>
+      <li>
+        <NavLink to="/quize" className={styles.item}>
+          Quize
+        </NavLink>
+      </li>
     </ul>
   );
 };
