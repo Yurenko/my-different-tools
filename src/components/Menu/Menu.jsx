@@ -19,6 +19,11 @@ const Menu = () => {
           Quize
         </NavLink>
       </li>
+      <li>
+        <NavLink to="/togglebutton" className={styles.item}>
+          Toggle button
+        </NavLink>
+      </li>
     </ul>
   );
 };
