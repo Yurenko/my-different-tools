@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <ul className={styles.list}>
       <li>
-        <NavLink to="/wordscounter" className={styles.item}>
+        <NavLink to="/words/counter" className={styles.item}>
           WordsCharectersCounter
         </NavLink>
       </li>
@@ -20,8 +20,13 @@ const Menu = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/togglebutton" className={styles.item}>
+        <NavLink to="/toggle/button" className={styles.item}>
           Toggle button
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/credit/card" className={styles.item}>
+          Credit Card
         </NavLink>
       </li>
     </ul>

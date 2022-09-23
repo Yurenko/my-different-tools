@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import CreaditCard from "./components/CreditCard/CreaditCard";
 import Menu from "./components/Menu/Menu";
 import NoMatch from "./components/NoMatch/NoMatch";
 import Quiz from "./components/Quiz/Quiz";
@@ -11,10 +12,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Menu />} />
-      <Route path="/wordscounter" element={<WordsCharectersCounter />} />
+      <Route path="/words/counter" element={<WordsCharectersCounter />} />
       <Route path="/calculator" element={<ScientificCalculator />} />
       <Route path="/quize" element={<Quiz />} />
-      <Route path="/togglebutton" element={<ToggleButton />} />
+      <Route path="/toggle/button" element={<ToggleButton />} />
+      <Route path="/credit/card" element={<CreaditCard />} />
       <Route path="*" element={<NoMatch />} />
     </Routes>
   );
